@@ -68,7 +68,7 @@ export default function App() {
         onSearchSubmit={handleSearchSubmit}
       />
       <main>
-        <Hero />
+        <Hero chooseCollection={chooseCollection} />
         <Catalogue
           collection={collection} setCollection={setCollection}
           filter={filter} setFilter={setFilter}

@@ -1,7 +1,7 @@
 import { ArrowDown } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-export default function Hero() {
+export default function Hero({ chooseCollection }) {
   return (
     <section className="relative isolate min-h-[100svh] flex items-center overflow-hidden pt-[140px] px-[clamp(22px,8vw,130px)] pb-[100px] bg-[#e9dfcf] xl:pl-[max(130px,calc((100vw-1320px)/2))] max-sm:items-end max-sm:px-[20px] max-sm:pb-[96px]" id="home">
       <div className="absolute inset-0 -z-20 w-full h-full bg-[#e9dfcf]">
@@ -42,8 +42,12 @@ export default function Hero() {
           whileTap={{ scale: 0.98 }}
           className="inline-flex items-center justify-center gap-[16px] border border-transparent py-[15px] px-[19px] text-[10px] font-semibold cursor-pointer transition-colors duration-200 text-[#f5f0e7] bg-[#302e2a] hover:bg-[#201e1b] focus-visible:outline-2 focus-visible:outline-[#626b50] focus-visible:outline-offset-4 max-sm:py-[14px] max-sm:px-[15px] shadow-[0_4px_16px_rgba(48,46,42,0.14)]"
           onClick={() => {
-            const el = document.getElementById('catalogue');
-            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            if (chooseCollection) {
+              chooseCollection('all');
+            } else {
+              const el = document.getElementById('catalogue');
+              if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
           }}
         >
           Explore the collection <ArrowDown size={15} />
