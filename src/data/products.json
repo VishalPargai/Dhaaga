@@ -1,0 +1,1033 @@
+
+[
+  {
+    "id": "rose",
+    "name": "Rose",
+    "collections": ["bloom"],
+    "description": "A timeless little bloom, made one stitch at a time.",
+    "available": true,
+    "formats": [
+
+      {
+        "id": "single-stem",
+        "label": "Single stem",
+        "price": 199,
+        "images": [
+          "images/single%20stem/single%20stem%20rose.webp"
+        ]
+      },
+      {
+        "id": "pot",
+        "label": "Pot",
+        "price": 299,
+        "images": ["images/flower%20pot/rose%20pot.webp"]
+      },
+      {
+        "id": "bouquet",
+        "label": "Bouquet",
+        "price": 1499,
+        "images": ["images/bouquet/rose%20bq.webp"]
+      },
+      {
+        "id": "keychain",
+        "label": "Keychain",
+        "price": 199,
+        "images": ["images/bloom%20keychain/rose%20kc.webp"]
+      }
+    ]
+  },
+  {
+    "id": "wine-rose",
+    "name": "Wine Rose",
+    "collections": [
+      "bloom"
+    ],
+    "description": "A rich wine-red rose, handmade one stitch at a time.",
+    "available": true,
+    "formats": [
+      {
+        "id": "single-stem",
+        "label": "Single stem",
+        "price": 399,
+        "images": [
+          "images/single%20stem/single%20stem%20wine%20rose.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tulip",
+    "name": "Tulip",
+    "collections": ["bloom"],
+    "description": "A soft, sculptural flower for everyday joy.",
+    "available": true,
+    "formats": [
+      {
+        "id": "single-stem",
+        "label": "Single stem",
+        "price": 249,
+        "images": ["images/single%20stem/single%20stem%20tulip.webp"]
+      },
+      {
+        "id": "pot",
+        "label": "Pot",
+        "price": 349,
+        "images": ["images/flower%20pot/tulip%20pot.webp"]
+      },
+      {
+        "id": "bouquet",
+        "label": "Bouquet",
+        "price": 1999,
+        "images": ["images/bouquet/tulip%20bq.webp"]
+      }
+    ]
+  },
+  {
+    "id": "sunflower",
+    "name": "Sunflower",
+    "collections": ["bloom"],
+    "description": "A little sunshine, with a handmade twist.",
+    "available": true,
+    "formats": [
+      {
+        "id": "single-stem",
+        "label": "Single stem",
+        "price": 199,
+        "images": ["images/single%20stem/single%20stem%20sunflower.webp"]
+      },
+      {
+        "id": "pot",
+        "label": "Pot",
+        "price": 299,
+        "images": ["images/flower%20pot/sunflower%20pot.webp"]
+      },
+      {
+        "id": "bouquet",
+        "label": "Bouquet",
+        "price": 1799,
+        "images": ["images/bouquet/sunflower%20bq.webp"]
+      },
+      {
+        "id": "keychain",
+        "label": "Keychain",
+        "price": 199,
+        "images": ["images/bloom%20keychain/sunflower%20kc.webp"]
+      }
+    ]
+  },
+  {
+    "id": "lily",
+    "name": "Lily",
+    "collections": ["bloom"],
+    "description": "A delicate statement in yarn and colour.",
+    "available": true,
+    "formats": [
+      {
+        "id": "single-stem",
+        "label": "Single stem",
+        "price": 249,
+        "images": ["images/single%20stem/single%20stem%20lily.webp"]
+      },
+      {
+        "id": "pot",
+        "label": "Pot",
+        "price": 349,
+        "images": ["images/flower%20pot/lily%20pot.webp"]
+      },
+      {
+        "id": "bouquet",
+        "label": "Bouquet",
+        "price": 1899,
+        "images": ["images/bouquet/lily%20bq.webp"]
+      }
+    ]
+  },
+  {
+    "id": "white-lily",
+    "name": "White Lily",
+    "collections": ["bloom"],
+    "description": "A soft white bloom with a timeless handmade finish.",
+    "available": true,
+    "formats": [
+      {
+        "id": "single-stem",
+        "label": "Single stem",
+        "price": 399,
+        "images": ["images/single%20stem/single%20stem%20white%20lily.webp"]
+      }
+    ]
+  },
+  {
+    "id": "blue-lily",
+    "name": "Blue Lily",
+    "collections": ["bloom"],
+    "description": "A colourful lily arranged in a handmade pot.",
+    "available": true,
+    "formats": [
+      {
+        "id": "pot",
+        "label": "Pot",
+        "price": 399,
+        "images": ["images/flower%20pot/blue%20lily%20pot.webp"]
+      }
+    ]
+  },
+  {
+    "id": "daisy",
+    "name": "Daisy",
+    "collections": ["bloom"],
+    "description": "Simple, cheerful and made to last.",
+    "available": true,
+    "formats": [
+      {
+        "id": "pot",
+        "label": "Pot",
+        "price": 349,
+        "images": ["images/flower%20pot/daisy%20pot.webp"]
+      },
+      {
+        "id": "keychain",
+        "label": "Keychain",
+        "price": 199,
+        "images": ["images/bloom%20keychain/daisy%20kc.webp"]
+      }
+    ]
+  },
+  {
+    "id": "lavender",
+    "name": "Lavender",
+    "collections": ["bloom"],
+    "description": "A gentle lavender piece for a little everyday calm.",
+    "available": true,
+    "formats": [
+      {
+        "id": "bouquet",
+        "label": "Bouquet",
+        "price": 1799,
+        "images": ["images/bouquet/lavender%20bq.webp"]
+      },
+      {
+        "id": "keychain",
+        "label": "Keychain",
+        "price": 199,
+        "images": ["images/bloom%20keychain/lavender%20kc.webp"]
+      }
+    ]
+  },
+  {
+    "id": "bee-keychain",
+    "name": "Bee keychain",
+    "collections": ["accessories"],
+    "description": "A cheerful little companion for your everyday things.",
+    "available": true,
+    "formats": [
+      {
+        "id": "keychain",
+        "label": "Keychain",
+        "price": 299,
+        "images": ["images/keychain/bee%20kc.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "bow-keychain",
+    "name": "Bow keychain",
+    "collections": ["accessories"],
+    "description": "A tiny handmade bow to carry along.",
+    "available": true,
+    "formats": [
+      {
+        "id": "keychain",
+        "label": "Keychain",
+        "price": 249,
+        "images": ["images/keychain/bow%20kc.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "bird-keychain",
+    "name": "Cute bird keychain",
+    "collections": ["accessories"],
+    "description": "A little bird made to bring a smile.",
+    "available": true,
+    "formats": [
+      {
+        "id": "keychain",
+        "label": "Keychain",
+        "price": 379,
+        "images": ["images/keychain/cute%20bird%20kc.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "initials-keychain",
+    "name": "Initials keychain",
+    "collections": ["accessories"],
+    "description": "A personalised charm made just for you.",
+    "available": true,
+    "formats": [
+      {
+        "id": "keychain",
+        "label": "Keychain",
+        "price": null,
+        "images": ["images/keychain/initials%20kc.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "mushroom-keychain",
+    "name": "Mushroom keychain",
+    "collections": ["accessories"],
+    "description": "A playful little mushroom charm.",
+    "available": true,
+    "formats": [
+      {
+        "id": "keychain",
+        "label": "Keychain",
+        "price": 349,
+        "images": ["images/keychain/mushroom%20kc.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "octopus-keychain",
+    "name": "Octopus keychain",
+    "collections": ["accessories"],
+    "description": "A tiny sea-inspired crochet companion.",
+    "available": true,
+    "formats": [
+      {
+        "id": "keychain",
+        "label": "Keychain",
+        "price": 299,
+        "images": ["images/keychain/octopuss%20kc.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "penguin-keychain",
+    "name": "Penguin keychain",
+    "collections": ["accessories"],
+    "description": "A small penguin charm, made stitch by stitch.",
+    "available": true,
+    "formats": [
+      {
+        "id": "keychain",
+        "label": "Keychain",
+        "price": 379,
+        "images": ["images/keychain/penguin%20kc.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "rose-bouquet-keychain",
+    "name": "Rose bouquet keychain",
+    "collections": ["accessories"],
+    "description": "A miniature bouquet for your keys or bag.",
+    "available": true,
+    "formats": [
+      {
+        "id": "keychain",
+        "label": "Keychain",
+        "price": 379,
+        "images": ["images/keychain/rose%20bq%20kc.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "star-keychain",
+    "name": "Star keychain",
+    "collections": ["accessories"],
+    "description": "A little star with a handmade touch.",
+    "available": true,
+    "formats": [
+      {
+        "id": "keychain",
+        "label": "Keychain",
+        "price": 299,
+        "images": ["images/keychain/star%20kc.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "teddy-keychain",
+    "name": "Teddy keychain",
+    "collections": ["accessories"],
+    "description": "A tiny companion for your everyday things.",
+    "available": true,
+    "formats": [
+      {
+        "id": "keychain",
+        "label": "Keychain",
+        "price": 449,
+        "images": ["images/keychain/teddy%20kc.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "hair-daisy-band",
+    "name": "Daisy hair band",
+    "collections": ["accessories"],
+    "description": "A playful floral detail for your hair.",
+    "available": true,
+    "formats": [
+      {
+        "id": "hair-accessory",
+        "label": "Hair accessory",
+        "price": 399,
+        "images": ["images/hair%20accessories/daisy%20hairband.webp"]
+      }
+    ]
+  },
+  {
+    "id": "daisy-hair-band-2",
+    "name": "Daisy hair band — style 2",
+    "collections": ["accessories"],
+    "description": "Another take on a floral everyday favourite.",
+    "available": true,
+    "formats": [
+      {
+        "id": "hair-accessory",
+        "label": "Hair accessory",
+        "price": 399,
+        "images": ["images/hair%20accessories/daisy%20hair%20band%202.webp"]
+      }
+    ]
+  },
+  {
+    "id": "daisy-hair-pin",
+    "name": "Daisy hair pin",
+    "collections": ["accessories"],
+    "description": "A delicate floral accent for your hairstyle.",
+    "available": true,
+    "formats": [
+      {
+        "id": "hair-accessory",
+        "label": "Hair accessory",
+        "price": 259,
+        "images": ["images/hair%20accessories/daisy%20hair%20pin.webp"]
+      }
+    ]
+  },
+  {
+    "id": "gajra-scrunchie",
+    "name": "Gajra scrunchie",
+    "collections": ["accessories"],
+    "description": "A floral-inspired scrunchie with a traditional touch.",
+    "available": true,
+    "formats": [
+      {
+        "id": "hair-accessory",
+        "label": "Hair accessory",
+        "price": 349,
+        "images": ["images/hair%20accessories/gajra%20scrunchie.webp"]
+      }
+    ]
+  },
+  {
+    "id": "gajra",
+    "name": "Gajra",
+    "collections": ["accessories"],
+    "description": "A handmade floral accessory for special occasions.",
+    "available": true,
+    "formats": [
+      {
+        "id": "hair-accessory",
+        "label": "Hair accessory",
+        "price": 399,
+        "images": ["images/hair%20accessories/gajra.webp"]
+      }
+    ]
+  },
+  {
+    "id": "green-scrunchie",
+    "name": "Green scrunchie",
+    "collections": ["accessories"],
+    "description": "A soft everyday essential in a lovely green shade.",
+    "available": true,
+    "formats": [
+      {
+        "id": "hair-accessory",
+        "label": "Hair accessory",
+        "price": 179,
+        "images": ["images/hair%20accessories/green%20scrunchie.webp"]
+      }
+    ]
+  },
+  {
+    "id": "hair-band",
+    "name": "Crochet hair band",
+    "collections": ["accessories"],
+    "description": "A handmade hair band for an easy everyday look.",
+    "available": true,
+    "formats": [
+      {
+        "id": "hair-accessory",
+        "label": "Hair accessory",
+        "price": 299,
+        "images": ["images/hair%20accessories/hair%20band.webp"]
+      }
+    ]
+  },
+  {
+    "id": "hair-paranda",
+    "name": "Hair paranda",
+    "collections": ["accessories"],
+    "description": "A traditional hair accessory with a handmade finish.",
+    "available": true,
+    "formats": [
+      {
+        "id": "hair-accessory",
+        "label": "Hair accessory",
+        "price": 299,
+        "images": ["images/hair%20accessories/hair%20paranda.webp"]
+      }
+    ]
+  },
+  {
+    "id": "red-scrunchie",
+    "name": "Red scrunchie",
+    "collections": ["accessories"],
+    "description": "A soft scrunchie in a rich red shade.",
+    "available": true,
+    "formats": [
+      {
+        "id": "hair-accessory",
+        "label": "Hair accessory",
+        "price": 219,
+        "images": ["images/hair%20accessories/red%20scrunchie.webp"]
+      }
+    ]
+  },
+  {
+    "id": "rose-hair-clip",
+    "name": "Rose hair clip",
+    "collections": ["accessories"],
+    "description": "A tiny rose to add a handmade detail to your hair.",
+    "available": true,
+    "formats": [
+      {
+        "id": "hair-accessory",
+        "label": "Hair accessory",
+        "price": 399,
+        "images": ["images/hair%20accessories/rose%20hair%20clip.webp"]
+      }
+    ]
+  },
+  {
+    "id": "rose-hair-pin",
+    "name": "Rose hair pin",
+    "collections": ["accessories"],
+    "description": "A floral hair pin with a thoughtful handmade finish.",
+    "available": true,
+    "formats": [
+      {
+        "id": "hair-accessory",
+        "label": "Hair accessory",
+        "price": 399,
+        "images": ["images/hair%20accessories/rose%20hair%20pin.webp"]
+      }
+    ]
+  },
+  {
+    "id": "sunflower-hair-pin",
+    "name": "Sunflower hair pin",
+    "collections": ["accessories"],
+    "description": "A sunny little accent for your hairstyle.",
+    "available": true,
+    "formats": [
+      {
+        "id": "hair-accessory",
+        "label": "Hair accessory",
+        "price": 399,
+        "images": ["images/hair%20accessories/sunflower%20hair%20pin.webp"]
+      }
+    ]
+  },
+  {
+    "id": "white-rose-hair-clip",
+    "name": "White rose hair clip",
+    "collections": ["accessories"],
+    "description": "A soft white floral accent, handmade with care.",
+    "available": true,
+    "formats": [
+      {
+        "id": "hair-accessory",
+        "label": "Hair accessory",
+        "price": 399,
+        "images": ["images/hair%20accessories/white%20rose%20hair%20clip.webp"]
+      }
+    ]
+  },
+  {
+    "id": "crochet-bag",
+    "name": "Crochet bag",
+    "collections": ["accessories"],
+    "description": "A textured everyday piece, made slowly.",
+    "available": true,
+    "formats": [
+      {
+        "id": "bag",
+        "label": "Bag",
+        "price": 1299,
+        "images": ["images/wearable/crochet%20bag.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "rose-crochet-bag",
+    "name": "Rose crochet bag",
+    "collections": ["accessories"],
+    "description": "A crochet bag with a floral touch.",
+    "available": true,
+    "formats": [
+      {
+        "id": "bag",
+        "label": "Bag",
+        "price": 1899,
+        "images": ["images/wearable/rose%20crotchet%20bag.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "waffle-bag",
+    "name": "Waffle bag",
+    "collections": ["accessories"],
+    "description": "A textured crochet bag for everyday use.",
+    "available": true,
+    "formats": [
+      {
+        "id": "bag",
+        "label": "Bag",
+        "price": 1199,
+        "images": ["images/wearable/waffle%20bag.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "scarf",
+    "name": "Crochet scarf",
+    "collections": ["accessories"],
+    "description": "A cosy handmade layer with a soft texture.",
+    "available": true,
+    "formats": [
+      {
+        "id": "wearable",
+        "label": "Wearable",
+        "price": 2499,
+        "images": ["images/wearable/scarf.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "tree-of-life",
+    "name": "Tree of Life",
+    "collections": ["home-living"],
+    "description": "A thoughtful wall piece woven with patience.",
+    "available": true,
+    "formats": [
+      {
+        "id": "wall-decor",
+        "label": "Wall décor",
+        "price": 1699,
+        "images": ["images/dream%20catcher%20and%20macrame/buddha%20tree%20of%20life.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "tree-of-life-leaves",
+    "name": "Tree of Life — leaves",
+    "collections": ["home-living"],
+    "description": "A tree-inspired wall hanging with a leafy detail.",
+    "available": true,
+    "formats": [
+      {
+        "id": "wall-decor",
+        "label": "Wall décor",
+        "price": 1999,
+        "images": ["images/dream%20catcher%20and%20macrame/buddha%20tree%20of%20life%20leaves.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "boho-wall-hanging",
+    "name": "Crochet boho wall hanging",
+    "collections": ["home-living"],
+    "description": "A textured handmade piece for a quiet corner.",
+    "available": true,
+    "formats": [
+      {
+        "id": "wall-decor",
+        "label": "Wall décor",
+        "price": 1999,
+        "images": ["images/dream%20catcher%20and%20macrame/crotchet%20boho%20wall%20hanging.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "green-mandala",
+    "name": "Green mandala",
+    "collections": ["home-living"],
+    "description": "A decorative mandala made with careful stitches.",
+    "available": true,
+    "formats": [
+      {
+        "id": "wall-decor",
+        "label": "Wall décor",
+        "price": 1299,
+        "images": ["images/dream%20catcher%20and%20macrame/green%20mandala%20crotchet.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "leaf-macrame",
+    "name": "Leaf macramé",
+    "collections": ["home-living"],
+    "description": "Natural fibre details for your favourite space.",
+    "available": true,
+    "formats": [
+      {
+        "id": "wall-decor",
+        "label": "Wall décor",
+        "price": 999,
+        "images": ["images/dream%20catcher%20and%20macrame/leaf%20macrame.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "star-dream-catcher",
+    "name": "Star dream catcher",
+    "collections": ["home-living"],
+    "description": "A star-shaped dream catcher with handmade detail.",
+    "available": true,
+    "formats": [
+      {
+        "id": "wall-decor",
+        "label": "Wall décor",
+        "price": 1299,
+        "images": ["images/dream%20catcher%20and%20macrame/star%20dream%20catcher.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "star-macrame",
+    "name": "Star macramé",
+    "collections": ["home-living"],
+    "description": "A star-inspired fibre art piece for your walls.",
+    "available": true,
+    "formats": [
+      {
+        "id": "wall-decor",
+        "label": "Wall décor",
+        "price": 999,
+        "images": ["images/dream%20catcher%20and%20macrame/star%20macrame.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "v-macrame-big",
+    "name": "V macramé — large",
+    "collections": ["home-living"],
+    "description": "A bold, textured wall hanging in a V silhouette.",
+    "available": true,
+    "formats": [
+      {
+        "id": "wall-decor",
+        "label": "Wall décor",
+        "price": 1199,
+        "images": ["images/dream%20catcher%20and%20macrame/V%20macrame%20big.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "v-macrame",
+    "name": "V macramé",
+    "collections": ["home-living"],
+    "description": "A minimal V-shaped macramé wall piece.",
+    "available": true,
+    "formats": [
+      {
+        "id": "wall-decor",
+        "label": "Wall décor",
+        "price": 999,
+        "images": ["images/dream%20catcher%20and%20macrame/V%20Macrame.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "green-macrame-wall-hanging",
+    "name": "Green macramé wall hanging",
+    "collections": ["home-living"],
+    "description": "A natural, earthy wall accent made with fibre and care.",
+    "available": true,
+    "formats": [
+      {
+        "id": "wall-decor",
+        "label": "Wall décor",
+        "price": 699,
+        "images": ["images/dream%20catcher%20and%20macrame/wall%20hanging%20green%20macrame.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "macrame-wall-hanging",
+    "name": "Macramé wall hanging",
+    "collections": ["home-living"],
+    "description": "A handmade fibre-art piece for your home.",
+    "available": true,
+    "formats": [
+      {
+        "id": "wall-decor",
+        "label": "Wall décor",
+        "price": 899,
+        "images": ["images/dream%20catcher%20and%20macrame/wall%20hanging%20macrame.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "white-macrame-wall-hanging-small",
+    "name": "White macramé wall hanging — small",
+    "collections": ["home-living"],
+    "description": "A smaller white wall hanging with a soft, minimal finish.",
+    "available": true,
+    "formats": [
+      {
+        "id": "wall-decor",
+        "label": "Wall décor",
+        "price": 899,
+        "images": ["images/dream%20catcher%20and%20macrame/wall%20hanging%20white%20macrame%20small.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "white-macrame-wall-hanging",
+    "name": "White macramé wall hanging",
+    "collections": ["home-living"],
+    "description": "A white fibre-art piece made for a calm, thoughtful space.",
+    "available": true,
+    "formats": [
+      {
+        "id": "wall-decor",
+        "label": "Wall décor",
+        "price": 499,
+        "images": ["images/dream%20catcher%20and%20macrame/wall%20hanging%20white%20macrame.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "white-mandala",
+    "name": "White mandala",
+    "collections": ["home-living"],
+    "description": "A soft, neutral mandala for your wall.",
+    "available": true,
+    "formats": [
+      {
+        "id": "wall-decor",
+        "label": "Wall décor",
+        "price": 1699,
+        "images": ["images/dream%20catcher%20and%20macrame/white%20mandala.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "pink-coaster",
+    "name": "Pink crochet coaster",
+    "collections": ["home-living"],
+    "description": "A small handmade detail for your everyday table.",
+    "available": true,
+    "formats": [
+      {
+        "id": "coaster",
+        "label": "Coaster",
+        "price": 149,
+        "images": ["images/coaster/pink%20coaster.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "pop-up-coaster",
+    "name": "Pop-up crochet coaster",
+    "collections": ["home-living"],
+    "description": "A playful textured coaster with a distinctive shape.",
+    "available": true,
+    "formats": [
+      {
+        "id": "coaster",
+        "label": "Coaster",
+        "price": 199,
+        "images": ["images/coaster/pop%20up%20coaster.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "pot-coaster",
+    "name": "Pot coaster",
+    "collections": ["home-living"],
+    "description": "A handmade coaster for your favourite cup or pot.",
+    "available": true,
+    "formats": [
+      {
+        "id": "coaster",
+        "label": "Coaster",
+        "price": 249,
+        "images": ["images/coaster/pot%20coaster.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "purple-coaster",
+    "name": "Purple crochet coaster",
+    "collections": ["home-living"],
+    "description": "A colourful handmade accent for your table.",
+    "available": true,
+    "formats": [
+      {
+        "id": "coaster",
+        "label": "Coaster",
+        "price": 149,
+        "images": ["images/coaster/purple%20coaster.webp"],
+        "imageFit": "contain",
+        "imagePosition": "center",
+        "imageScale": 1
+      }
+    ]
+  },
+  {
+    "id": "custom-crochet-curtain",
+    "name": "Crochet curtain",
+    "collections": ["home-living"],
+    "description": "A made-to-order crochet curtain for your space.",
+    "available": true,
+    "formats": [
+      {
+        "id": "decorative",
+        "label": "Custom décor",
+        "price": 1499,
+        "images": ["images/custom/crotchet%20curtain.webp"]
+      }
+    ]
+  },
+  {
+    "id": "custom-hanging-pots",
+    "name": "Crochet hanging pots",
+    "collections": ["home-living"],
+    "description": "Handmade hanging pots for a little greenery indoors.",
+    "available": true,
+    "formats": [
+      {
+        "id": "decorative",
+        "label": "Custom décor",
+        "price": 699,
+        "images": ["images/custom/crotchet%20hanging%20pots.webp"]
+      }
+    ]
+  },
+  {
+    "id": "custom-window-curtains",
+    "name": "Crochet window curtains",
+    "collections": ["home-living"],
+    "description": "Made-to-order curtains with a handmade touch.",
+    "available": true,
+    "formats": [
+      {
+        "id": "decorative",
+        "label": "Custom décor",
+        "price": 1899,
+        "images": ["images/custom/crotchet%20window%20curtains.webp"]
+      }
+    ]
+  }
+]
