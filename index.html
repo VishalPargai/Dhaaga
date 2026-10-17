@@ -16,9 +16,22 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('dhaaga-theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+            var meta = document.querySelector('meta[name="theme-color"]');
+            if (meta) meta.setAttribute('content', '#161513');
+          }
+        } catch (e) {}
+      })();
+    </script>
   </head>
   <body
-    class="m-0 min-w-[320px] font-sans text-ink bg-paper antialiased selection:bg-[#d3d9c8] selection:text-ink"
+    class="m-0 min-w-[320px] font-sans text-ink bg-paper antialiased selection:bg-[#d3d9c8] selection:text-ink dark:bg-[#161513] dark:text-[#f0ebe1] dark:selection:bg-[#454c3b] dark:selection:text-[#f5f0e7] transition-colors duration-300"
   >
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>

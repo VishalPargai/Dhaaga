@@ -10,7 +10,7 @@ export default function Toast({ notice, setNotice }) {
           animate={{ opacity: 1, y: 0, x: "-50%" }}
           exit={{ opacity: 0, y: 15, x: "-50%" }}
           transition={{ duration: 0.25, ease: "easeOut" }}
-          className="fixed z-50 left-1/2 bottom-[24px] flex items-center gap-[10px] max-w-[calc(100%-30px)] bg-[#201e1b] text-[#f5f0e7] py-[13px] px-[18px] shadow-[0_12px_36px_rgba(0,0,0,0.22)] rounded-full text-[11px] max-sm:bottom-[16px] max-sm:w-[calc(100%-32px)] max-sm:justify-between border border-[#ffffff15]"
+          className="fixed z-50 left-1/2 bottom-[24px] flex items-center gap-[10px] max-w-[calc(100%-30px)] bg-[#201e1b] dark:bg-[#2c2824] text-[#f5f0e7] py-[13px] px-[18px] shadow-[0_12px_36px_rgba(0,0,0,0.22)] dark:shadow-[0_12px_36px_rgba(0,0,0,0.6)] rounded-full text-[11px] max-sm:bottom-[16px] max-sm:w-[calc(100%-32px)] max-sm:justify-between border border-[#ffffff15] dark:border-[#ffffff25]"
           role="status"
         >
           <div className="flex items-center gap-[10px]">

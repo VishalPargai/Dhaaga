@@ -7,6 +7,7 @@ import Story from './components/Story';
 import Custom from './components/Custom';
 import Footer from './components/Footer';
 import Toast from './components/Toast';
+import { ThemeProvider } from './utils/ThemeContext';
 
 export default function App() {
   const [collection, setCollection] = useState('bloom');
@@ -59,7 +60,7 @@ export default function App() {
   }
 
   return (
-    <>
+    <ThemeProvider>
       <Header
         mobileOpen={mobileOpen}
         setMobileOpen={setMobileOpen}
@@ -85,6 +86,6 @@ export default function App() {
       </main>
       <Footer chooseCollection={chooseCollection} />
       <Toast notice={notice} setNotice={setNotice} />
-    </>
+    </ThemeProvider>
   );
 }

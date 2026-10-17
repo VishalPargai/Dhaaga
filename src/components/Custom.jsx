@@ -10,7 +10,7 @@ export default function Custom() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-60px" }}
       transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-      className="bg-[#666e56] text-[#f5f0e7] py-[85px] px-[clamp(22px,10vw,160px)] sm-down:py-[70px] sm-down:px-[24px] sm-down:pb-[65px] relative overflow-hidden"
+      className="bg-[#666e56] dark:bg-[#323929] text-[#f5f0e7] py-[85px] px-[clamp(22px,10vw,160px)] sm-down:py-[70px] sm-down:px-[24px] sm-down:pb-[65px] relative overflow-hidden transition-colors duration-300"
       id="custom"
     >
       <div className="relative z-10 max-w-[620px]">
