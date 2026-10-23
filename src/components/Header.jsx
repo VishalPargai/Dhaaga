@@ -1,10 +1,11 @@
 import { useState, useRef, useEffect, useMemo } from "react";
-import { Menu, X, ArrowUpRight, ArrowRight, Search } from "lucide-react";
+import { Menu, X, ArrowUpRight, ArrowRight, Search, Heart } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { COLLECTIONS } from "../data/constants";
 import products from "../data/products.json";
 import { priceLabel, imageUrl } from "../utils/formatters";
 import { useTheme } from "../utils/ThemeContext";
+import { useWishlist } from "../utils/WishlistContext";
 import ThemeToggle from "./ThemeToggle";
 
 export default function Header({
@@ -15,6 +16,7 @@ export default function Header({
   onSearchSubmit,
 }) {
   const { isDark, toggleTheme } = useTheme();
+  const { wishlistCount, openDrawer } = useWishlist();
   const [searchOpen, setSearchOpen] = useState(false);
   const [query, setQuery] = useState("");
   const searchContainerRef = useRef(null);
@@ -56,6 +58,7 @@ export default function Header({
     setSearchOpen(false);
     setQuery("");
     setProductId(item.id);
+    window.history.pushState({ productId: item.id }, '', `#product-${item.id}`);
     window.setTimeout(() => {
       document.getElementById("product-detail")?.scrollIntoView({ behavior: "smooth", block: "start" });
     }, 40);
@@ -130,7 +133,7 @@ export default function Header({
             </motion.a>
           </nav>
 
-          <div className="flex items-center gap-[12px]">
+          <div className="flex items-center gap-[10px]">
             {/* DESKTOP SEARCH BUTTON */}
             <motion.button
               whileHover={{ scale: 1.04 }}
@@ -141,6 +144,27 @@ export default function Header({
             >
               <Search size={14} className="text-[#626b50] dark:text-[#9da991]" />
               <span>Search</span>
+            </motion.button>
+
+            {/* DESKTOP SAVED / WISHLIST BUTTON */}
+            <motion.button
+              whileHover={{ scale: 1.04 }}
+              whileTap={{ scale: 0.96 }}
+              onClick={openDrawer}
+              className="relative flex items-center gap-[6px] py-[7px] px-[13px] rounded-full border border-[#302e2a22] dark:border-[#ffffff20] bg-[#f5f0e799] dark:bg-[#25221e99] hover:bg-[#eae2d5] dark:hover:bg-[#322d27] text-[#302e2a] dark:text-[#e4ded4] text-[12px] font-medium transition-all cursor-pointer backdrop-blur-[6px] shadow-[0_1px_4px_rgba(48,46,42,0.06)]"
+              aria-label={`View saved pieces (${wishlistCount})`}
+              title="Saved pieces"
+            >
+              <Heart
+                size={14}
+                className={wishlistCount > 0 ? "fill-[#c94b4b] text-[#c94b4b]" : "text-[#626b50] dark:text-[#9da991]"}
+              />
+              <span>Saved</span>
+              {wishlistCount > 0 && (
+                <span className="w-[18px] h-[18px] rounded-full bg-[#626b50] dark:bg-[#9da991] text-white dark:text-[#181715] text-[10px] font-bold flex items-center justify-center -mr-[4px]">
+                  {wishlistCount}
+                </span>
+              )}
             </motion.button>
 
             {/* DESKTOP THEME TOGGLE */}
@@ -155,6 +179,25 @@ export default function Header({
           }`}
         >
           <ThemeToggle isDark={isDark} toggleTheme={toggleTheme} className="mr-[2px]" />
+          
+          {/* MOBILE SAVED BUTTON */}
+          <button
+            onClick={openDrawer}
+            className="relative border border-[#302e2a29] dark:border-[#ffffff20] rounded-full bg-transparent w-[42px] h-[42px] inline-flex items-center justify-center cursor-pointer text-[#302e2a] dark:text-[#f0ebe1] focus-visible:outline-2 focus-visible:outline-[#626b50] focus-visible:outline-offset-4"
+            aria-label={`View saved pieces (${wishlistCount})`}
+            title="Saved pieces"
+          >
+            <Heart
+              size={18}
+              className={wishlistCount > 0 ? "fill-[#c94b4b] text-[#c94b4b]" : ""}
+            />
+            {wishlistCount > 0 && (
+              <span className="absolute -top-[2px] -right-[2px] w-[18px] h-[18px] rounded-full bg-[#626b50] dark:bg-[#9da991] text-white dark:text-[#181715] text-[10px] font-bold flex items-center justify-center">
+                {wishlistCount}
+              </span>
+            )}
+          </button>
+
           <button
             onClick={() => {
               setSearchOpen(true);
@@ -353,6 +396,24 @@ export default function Header({
             >
               Our story <ArrowUpRight size={16} />
             </a>
+
+            {/* Saved pieces in mobile drawer */}
+            <button
+              onClick={() => {
+                setMobileOpen(false);
+                openDrawer();
+              }}
+              className="flex justify-between items-center py-[15px] border-b border-[#302e2a29] dark:border-[#ffffff15] bg-transparent text-[12px] cursor-pointer focus-visible:outline-2 focus-visible:outline-[#626b50] focus-visible:outline-offset-4 font-medium text-[#302e2a] dark:text-[#f0ebe1]"
+            >
+              <span className="flex items-center gap-[8px]">
+                <Heart size={16} className={wishlistCount > 0 ? "fill-[#c94b4b] text-[#c94b4b]" : ""} />
+                Saved Pieces
+              </span>
+              <span className="text-[11px] font-bold text-[#626b50] dark:text-[#a8b797] bg-[#626b50]/10 dark:bg-[#9da991]/15 py-[2px] px-[8px] rounded-full">
+                {wishlistCount}
+              </span>
+            </button>
+
             <div className="flex justify-between items-center py-[15px] border-t-0 text-[12px] font-medium text-[#302e2a] dark:text-[#f0ebe1]">
               <span className="flex items-center gap-[6px]">
                 {isDark ? "Dark mode" : "Light mode"}
